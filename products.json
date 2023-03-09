@@ -1,0 +1,68 @@
+[
+	{
+		"id": "d5b9e193-17f6-42b4-8924-f6782219f296",
+		"title": "avion",
+		"description": "Este es un producto prueba",
+		"price": 2000,
+		"thumbnail": "Sin imagen",
+		"code": "abd145",
+		"stock": 5,
+		"status": true,
+		"category": "categoriaa"
+	},
+	{
+		"id": "282ee1b7-94f2-495b-8a0b-cf405b99309b",
+		"title": "libro",
+		"description": "Este es un producto prueba",
+		"price": 450,
+		"thumbnail": "Sin imagen",
+		"code": "abd165",
+		"stock": 1,
+		"status": true,
+		"category": "categoria de prueba"
+	},
+	{
+		"id": "0afbeed1-b810-48d3-a342-5a237129acc8",
+		"title": "mochila",
+		"description": "Este es un producto prueba",
+		"price": 500,
+		"thumbnail": "Sin imagen",
+		"code": "abd185",
+		"stock": 40,
+		"status": false,
+		"category": "categoria de prueba"
+	},
+	{
+		"id": "32e483b5-f569-4ad3-b28c-f8bcb65ef78c",
+		"title": "cafe",
+		"description": "Este es un producto prueba",
+		"price": 1000,
+		"thumbnail": "Sin imagen",
+		"code": "abd195",
+		"stock": 4,
+		"status": false,
+		"category": "categoria de prueba"
+	},
+	{
+		"id": "73161c6b-8781-42fc-9e41-9648e0025bb1",
+		"title": "termo",
+		"description": "un termo",
+		"price": 3200,
+		"thumbnail": "no hay",
+		"code": "674f",
+		"stock": 3,
+		"status": true,
+		"category": "botellas"
+	},
+	{
+		"id": "28146700-d695-43e1-866d-f4f0b536f64a",
+		"title": "lego",
+		"description": "son legos",
+		"price": 500,
+		"thumbnail": "sin imagen",
+		"code": "543i",
+		"stock": 56,
+		"status": true,
+		"category": "Juguetes"
+	}
+]

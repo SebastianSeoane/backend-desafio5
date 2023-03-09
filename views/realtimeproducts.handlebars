@@ -1,0 +1,62 @@
+<html>
+    <body>
+        <h1>PRODUCTS IN REAL TIME:</h1>
+
+
+<ul id="product-list">
+  {{#each products}}
+    <li id="{{this.id}}">- El producto <strong>{{this.title}}</strong> tiene un valor de <strong>{{this.price}}</strong> y su ID es: <strong>{{this.id}}</strong> </li>
+  {{/each}}
+</ul>
+</div>
+<div style="display: flex;">
+<form id="add" style="flex: 1;">
+<h3>Agregue un producto:</h3>
+  <div>
+    <label>Title:</label>
+    <input type="text" id="title">
+  </div>
+  <div>
+    <label>Description:</label>
+    <textarea id="description"></textarea>
+  </div>
+  <div>
+    <label>Price:</label>
+    <input type="text" id="price">
+  </div>
+  <div>
+    <label>Thumbnail:</label>
+    <input type="text" id="thumbnail">
+  </div>
+  <div>
+    <label>Code:</label>
+    <input type="text" id="code">
+  </div>
+  <div>
+    <label>Stock:</label>
+    <input type="text" id="stock">
+  </div>
+  <div>
+    <label>Status:</label>
+    <input type="text" id="status">
+  </div>
+  <div>
+    <label>Category:</label>
+    <input type="text" id="category">
+  </div>
+  <button id="addProductBtn">Add Product</button>
+</form>
+
+<form id="delete" style="flex: 1; margin-left: 20px;">
+    <h3>Elimine un producto:</h3>
+  <label >Product ID:</label>
+  <input type="text" id="productId" >
+  <button id="deleteBtn">Delete Product</button>
+</form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realtimeproducts.js"></script>
+
+  </html>
